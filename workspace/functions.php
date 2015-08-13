@@ -171,6 +171,7 @@ if ( !is_admin() ) {
 wp_enqueue_script('jquery');
 wp_enqueue_script('thn_js',get_template_directory_uri().'/theron.js');
 wp_enqueue_script('thn_other',get_template_directory_uri().'/js/other.js');
+wp_enqueue_script('thn_custom',get_template_directory_uri().'/js/custom.js');
 wp_enqueue_script('thn_newsslider',get_template_directory_uri().'/js/featureList.js');
 if(of_get_option('slider_select') == "accordion"){ wp_enqueue_script('thn_accordion',get_template_directory_uri().'/js/accordion.js');}
 if(of_get_option('slider_select') == "nivo"){ wp_enqueue_script('thn_nivo',get_template_directory_uri().'/js/jquery.nivo.js');}
