@@ -23,7 +23,7 @@ Tags: theme-options, one-column, dark, blue, red, white, right-sidebar, left-sid
    	right: auto;
     position: fixed;
      transition: all 1s;
-     top: 21px;
+     top: 0px;
 }
 .smaller .inner-center {
     float: none; 
@@ -41,7 +41,7 @@ Tags: theme-options, one-column, dark, blue, red, white, right-sidebar, left-sid
 .smaller.header3-social .social_wrap{
     position: fixed;
     z-index: 1000;
-    top: 45px;
+    top: 0px;
     margin-top: 0;
     width: 240px;
     transition: all 1s;
@@ -737,8 +737,8 @@ h3#reply-title{ font-size:20px; color:#2bb975; position:relative; top:15px; padd
 
 /*SOCIAL SHARE*/
 .header3-social { position:relative;}
-.header3-social .social_wrap{ position:absolute; z-index:8; right:10px; top:10px; transition: all 1s}
-.social_wrap{ width:330px; float:right; position:relative; margin-top:10px;}
+.header3-social .social_wrap{ position:absolute; z-index:8; right:10px; top:0px; transition: all 1s}
+.social_wrap{ width:330px; float:right; position:relative; margin-top:0px;}
 .social{float: right;}
 .social ul{ margin:0; padding:0; float:left;}
 .social ul li{ float:left; list-style-type:none; margin:3px 5px;}
