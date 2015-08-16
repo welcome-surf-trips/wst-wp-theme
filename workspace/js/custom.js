@@ -1,5 +1,5 @@
 jQuery(function(){
-   var logoIcon = jQuery('.logo');
+   var logoIcon = jQuery('.logo, .header3-social');
     jQuery(window).scroll(function (e) {
         var distanceTop = window.pageYOffset || document.documentElement.scrollTop;
         var beginAnimationAt = 50;
