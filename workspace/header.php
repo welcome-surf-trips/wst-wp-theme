@@ -24,7 +24,7 @@
 <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
 <!--[if lte IE 7]><script src="<?php get_template_directory_uri(); ?>/ie6/warning.js"></script><script>window.onload=function(){e("<?php get_template_directory_uri(); ?>/ie6/")}</script><![endif]-->
 
-    <div class="center <?php echo of_get_option('head_select'); ?>-social">
+    <div class="center <?php echo of_get_option('head_select'); ?>-social" id="social_icon">
  <!--SOCIAL ICONS-->   
 <div class="social_wrap">
     <div class="social">
