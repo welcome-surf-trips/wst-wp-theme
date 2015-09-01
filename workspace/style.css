@@ -81,6 +81,9 @@ Tags: theme-options, one-column, dark, blue, red, white, right-sidebar, left-sid
         width: 40px;
         height: 40px;
     }
+    #menu-icon.menu_active{
+        background: #000 !important;
+    }
 }
 /*SAIF EDIT*/
 
